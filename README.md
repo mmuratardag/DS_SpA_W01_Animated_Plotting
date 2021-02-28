@@ -8,8 +8,6 @@ See https://youtu.be/jbkSRLYSojo for the original Gapminder.
 
 Project notebooks are [here](gapminder_final.ipynb) and [here](gapminder_plotly_murat.ipynb)
 
-All the data frames are is publicly available on the [Gapminder project website](https://www.gapminder.org/data/); I also relied on another Gapminder DataFrame that comes with ```plotly_express```
-
 Below is my replication ...
 
 ![](output.gif)
@@ -28,3 +26,9 @@ The following plotly animation shows the relationship between GDP per capita and
 This following plotly animation shows the relationship between GDP per capita and life expectancy across time in three continents
 
 ![](life_plotly.gif)
+
+## Acknowledgements
+
+All the data frames are is publicly available on the [Gapminder project website](https://www.gapminder.org/data/); I also relied on another Gapminder DataFrame that comes with ```plotly_express```
+
+The loop for creating the multiple *.pngs are adopted from [Nader Hemaidan](https://github.com/NaderH84)'s code. The static plot is inspired by [Alphan Aksoyoglu](https://github.com/AlphanAksoyoglu)'s code.
